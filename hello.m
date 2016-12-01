@@ -1,1 +1,2 @@
 fprintf('World\n');
+exit;
