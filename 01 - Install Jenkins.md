@@ -1,18 +1,18 @@
-![Images/2016-12-01 08_14-000000.png](Images/2016-12-01 08_14-000000.png)
-![Images/2016-12-01 08_15-000001.png](Images/2016-12-01 08_15-000001.png)
-![Images/2016-12-01 08_17-000002.png](Images/2016-12-01 08_17-000002.png)
-![Images/2016-12-01 08_18-000003.png](Images/2016-12-01 08_18-000003.png)
-![Images/2016-12-01 08_19-000004.png](Images/2016-12-01 08_19-000004.png)
-![Images/2016-12-01 08_20-000006.png](Images/2016-12-01 08_20-000006.png)
-![Images/2016-12-01 08_20-000007.png](Images/2016-12-01 08_20-000007.png)
-![Images/2016-12-01 08_20-000008.png](Images/2016-12-01 08_20-000008.png)
-![Images/2016-12-01 08_24-000009.png](Images/2016-12-01 08_24-000009.png)
-![Images/2016-12-01 08_24-000010.png](Images/2016-12-01 08_24-000010.png)
-![Images/2016-12-01 08_25-000011.png](Images/2016-12-01 08_25-000011.png)
-![Images/2016-12-01 08_25-000012.png](Images/2016-12-01 08_25-000012.png)
-![Images/2016-12-01 08_29-000013.png](Images/2016-12-01 08_29-000013.png)
-![Images/2016-12-01 08_29-000015.png](Images/2016-12-01 08_29-000015.png)
-![Images/2016-12-01 08_31-000016.png](Images/2016-12-01 08_31-000016.png)
-![Images/2016-12-01 08_32-000017.png](Images/2016-12-01 08_32-000017.png)
-![Images/2016-12-01 08_32-000021.png](Images/2016-12-01 08_32-000021.png)
-![Images/2016-12-01 08_47-000022.png](Images/2016-12-01 08_47-000022.png)
+<a href="Images/2016-12-01 08_14-000000.png"><img src="Images/2016-12-01 08_14-000000.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_15-000001.png"><img src="Images/2016-12-01 08_15-000001.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_17-000002.png"><img src="Images/2016-12-01 08_17-000002.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_18-000003.png"><img src="Images/2016-12-01 08_18-000003.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_19-000004.png"><img src="Images/2016-12-01 08_19-000004.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_20-000006.png"><img src="Images/2016-12-01 08_20-000006.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_20-000007.png"><img src="Images/2016-12-01 08_20-000007.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_20-000008.png"><img src="Images/2016-12-01 08_20-000008.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_24-000009.png"><img src="Images/2016-12-01 08_24-000009.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_24-000010.png"><img src="Images/2016-12-01 08_24-000010.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_25-000011.png"><img src="Images/2016-12-01 08_25-000011.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_25-000012.png"><img src="Images/2016-12-01 08_25-000012.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_29-000013.png"><img src="Images/2016-12-01 08_29-000013.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_29-000015.png"><img src="Images/2016-12-01 08_29-000015.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_31-000016.png"><img src="Images/2016-12-01 08_31-000016.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_32-000017.png"><img src="Images/2016-12-01 08_32-000017.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_32-000021.png"><img src="Images/2016-12-01 08_32-000021.png" align="left" height="48" width="48"></a>
+<a href="Images/2016-12-01 08_47-000022.png"><img src="Images/2016-12-01 08_47-000022.png" align="left" height="48" width="48"></a>
