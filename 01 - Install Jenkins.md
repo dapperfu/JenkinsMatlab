@@ -55,10 +55,18 @@ Jenkins runs as a Windows service (starting at boot). By default it is setup to 
 
 In my opinion it is advisable change it to your local user. This way all of your environment variables and paths are set correctly.
 
+Launch the windows services editor through the Start Menu or by pressing Win-R and typing ``services.msc``
+
 <a href="Images/2016-12-01 08_31-000016.png"><img src="Images/2016-12-01 08_31-000016.png" align="center" height="300"></a>
+
+Scroll down to find the Jenkins Service and double click on it.
 
 <a href="Images/2016-12-01 08_32-000017.png"><img src="Images/2016-12-01 08_32-000017.png" align="center" height="300"></a>
 
+Stop the service. At this time if you don't want Jenkins to always run on Windows boot you can change the '``Startup Type``' from '``Automatic``' to '``Manual``'
+
 <a href="Images/2016-12-01 08_32-000021.png"><img src="Images/2016-12-01 08_32-000021.png" align="center" height="300"></a>
+
+Switch to the '``Log On``' tab, check the '``This Account``' radio button and enter your user name (and domain if applicable) and press the '``Check Names``' button to validate your entry.
 
 <a href="Images/2016-12-01 08_47-000022.png"><img src="Images/2016-12-01 08_47-000022.png" align="center" height="300"></a>
