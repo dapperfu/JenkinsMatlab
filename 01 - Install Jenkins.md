@@ -41,11 +41,19 @@ To unlock Jenkins a randomly generated initial password is placed in a file at `
 
 <a href="Images/2016-12-01 08_24-000010.png"><img src="Images/2016-12-01 08_24-000010.png" align="center" height="300"></a>
 
+For the purposes of this tutorial the suggested plugins are acceptible.
+
 <a href="Images/2016-12-01 08_25-000011.png"><img src="Images/2016-12-01 08_25-000011.png" align="center" height="300"></a>
+
+Jenkins will now download and install all of the default suggested plugins.
 
 <a href="Images/2016-12-01 08_25-000012.png"><img src="Images/2016-12-01 08_25-000012.png" align="center" height="300"></a>
 
+When it is finished Jenkins will ask you to setup an Admin user. **This separate from your Windows account information**. For simplicity I chose '``admin``' as the admin user and chose a unique password.
+
 <a href="Images/2016-12-01 08_29-000013.png"><img src="Images/2016-12-01 08_29-000013.png" align="center" height="300"></a>
+
+When that is complete Jenkins is Ready.
 
 <a href="Images/2016-12-01 08_29-000015.png"><img src="Images/2016-12-01 08_29-000015.png" align="center" height="300"></a>
 
@@ -71,4 +79,6 @@ Switch to the '``Log On``' tab, check the '``This Account``' radio button and en
 
 <a href="Images/2016-12-01 08_47-000022.png"><img src="Images/2016-12-01 08_47-000022.png" align="center" height="300"></a>
 
-Press '``Ok``' to exit the 
+Press '``Ok``' to exit the '``Select User``' dialog and press '``Start``' to restart Jenkins.
+
+Jenkins User Interface should now be available again at http://localhost:8080/login
