@@ -70,3 +70,5 @@ Stop the service. At this time if you don't want Jenkins to always run on Window
 Switch to the '``Log On``' tab, check the '``This Account``' radio button and enter your user name (and domain if applicable) and press the '``Check Names``' button to validate your entry.
 
 <a href="Images/2016-12-01 08_47-000022.png"><img src="Images/2016-12-01 08_47-000022.png" align="center" height="300"></a>
+
+Press '``Ok``' to exit the 
