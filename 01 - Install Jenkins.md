@@ -16,7 +16,7 @@ The installer is zipped for size. Before it can be used you need to unzip it.
 
 ## Install Jenkins
 
-Launch the extracted Jenkins installer
+Launch the extracted Jenkins installer and proceed:
 
 <a href="Images/2016-12-01 08_17-000002.png"><img src="Images/2016-12-01 08_17-000002.png" align="center" height="200"></a>
 <a href="Images/2016-12-01 08_18-000003.png"><img src="Images/2016-12-01 08_18-000003.png" align="center" height="200"></a>
