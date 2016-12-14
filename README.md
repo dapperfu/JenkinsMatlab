@@ -1,3 +1,1 @@
-# Jenkins & Matlab Demo
-
-Repository for Jenkins Matlab Demo.
+# Automated Simulink & Matlab Builds with Jenkins.
