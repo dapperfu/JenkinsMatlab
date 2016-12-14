@@ -22,7 +22,9 @@ Before it can be used you need to unzip it.
 
 ## Install Jenkins
 
-Launch the extracted Jenkins installer and proceed. The default settings on all of the installer pages should be adequate.
+Launch the extracted Jenkins installer and proceed. Admin access is required because Jenkins installs a Windows Service to keep it running in the background.
+
+The default settings on all of the installer pages should be adequate.
 
 <a href="Images/2016-12-01 08_19-000004.png"><img src="Images/2016-12-01 08_19-000004.png" align="center" height="200"></a>
 
@@ -32,7 +34,13 @@ Launch the extracted Jenkins installer and proceed. The default settings on all 
 
 <a href="Images/2016-12-01 08_20-000008.png"><img src="Images/2016-12-01 08_20-000008.png" align="center" height="200"></a>
 
+## Setup Jenkins
+
+Once the Jenkins installer finishes the User Interface will load in your default web browser. (http://localhost:8080/login)
+
 <a href="Images/2016-12-01 08_24-000009.png"><img src="Images/2016-12-01 08_24-000009.png" align="center" height="200"></a>
+
+To unlock Jenkins a randomly generated initial password is placed in a file at ``C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword``. You can open it with any text editor. ([Notepad++](https://notepad-plus-plus.org/) is shown.)
 
 <a href="Images/2016-12-01 08_24-000010.png"><img src="Images/2016-12-01 08_24-000010.png" align="center" height="200"></a>
 
