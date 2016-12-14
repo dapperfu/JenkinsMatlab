@@ -49,6 +49,12 @@ To unlock Jenkins a randomly generated initial password is placed in a file at `
 
 <a href="Images/2016-12-01 08_29-000015.png"><img src="Images/2016-12-01 08_29-000015.png" align="center" height="300"></a>
 
+## Change Jenkins Run Time User.
+
+Jenkins runs as a Windows service (starting at boot). By default it is setup to run as the local System Account. In most cases this should work fine, however it makes debugging MATLAB run in Jenkins more difficult.
+
+In my opinion it is advisable change it to your local user. This way all of your environment variables and paths are set correctly.
+
 <a href="Images/2016-12-01 08_31-000016.png"><img src="Images/2016-12-01 08_31-000016.png" align="center" height="300"></a>
 
 <a href="Images/2016-12-01 08_32-000017.png"><img src="Images/2016-12-01 08_32-000017.png" align="center" height="300"></a>
