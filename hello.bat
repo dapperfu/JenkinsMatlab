@@ -7,8 +7,8 @@ REM -nosplash Don't display the MATLAB Splash screen
 REM -wait     Don't return to the script until MATLAB is closed.
 REM -c        explicitly specify the license file.
 REM -logfile  Log all script output to the logfile.
-REM -r        Run the specified matlab script.       
+REM -r        Run the specified matlab commands.
 
-REM "C:\Program Files\MATLAB\R2016a\bin\matlab.exe" -nosplash -wait -c "C:\Program Files\MATLAB\R2016a\licenses\network.lic" -logfile "hello.log" -r "hello"
+"C:\Program Files\MATLAB\R2016a\bin\matlab.exe" -nosplash -wait -c "C:\Program Files\MATLAB\R2016a\licenses\network.lic" -logfile "hello.log" -r "cd('%~dp0');hello"
 
 pause
