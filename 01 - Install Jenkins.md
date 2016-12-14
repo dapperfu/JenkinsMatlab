@@ -1,6 +1,8 @@
-# Install Jenkins.
+# Windows Jenkins Install
 
-1. Download Jenkins from [jenkins.io](https://jenkins.io/)
+## Download Jenkins
+
+Download Jenkins from [jenkins.io](https://jenkins.io/)
 
 On the Jenkins home page click on the "**Download Jenkins**" button.
 
@@ -10,6 +12,11 @@ Then click on the down arrow to download the Windows installer.
 
 <a href="Images/2016-12-01 08_15-000001.png"><img src="Images/2016-12-01 08_15-000001.png" align="center" height="200"></a>
 
+The installer is zipped for size. Before it can be used you need to unzip it.
+
+## Install Jenkins
+
+Launch the extracted Jenkins installer
 
 <a href="Images/2016-12-01 08_17-000002.png"><img src="Images/2016-12-01 08_17-000002.png" align="center" height="200"></a>
 <a href="Images/2016-12-01 08_18-000003.png"><img src="Images/2016-12-01 08_18-000003.png" align="center" height="200"></a>
