@@ -13,13 +13,14 @@ try
     if mod(build_number, 2) == 0
         error('jenkins:example', 'Generic Error: %i', randi(100));
     end
-catch ME
+catch me
     fprintf('########## Failed ##########\n');
     fprintf('ERROR: %s (%s)\n\n',me.message, me.identifier)
     for i = numel(me.stack):-1:1
         fprintf('[Line %02d]: %s\n',me.stack(i).line,me.stack(i).file)
     end
     exit(1);
+    quit('force');
 end
 fprintf('########## Finished ##########\n');
 exit(0);
