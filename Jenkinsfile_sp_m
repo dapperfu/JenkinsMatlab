@@ -1,4 +1,5 @@
 #!groovy
+# Scripted Pipeline
 node {
    stage('Git Checkout') {
         checkout scm

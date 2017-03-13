@@ -1,4 +1,5 @@
 #!groovy
+# Scripted Pipeline
 node {
    stage('Git Checkout') {
         checkout scm
@@ -11,6 +12,6 @@ node {
         }
    }
    stage('Run dSpace Tests') {
-        echo "Run dSpace"
+        echo('Run dSpace')
    }
 }

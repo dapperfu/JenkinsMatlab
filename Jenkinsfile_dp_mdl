@@ -1,0 +1,38 @@
+/* 
+Jenkinsfile (Declarative Pipeline)
+*/
+pipeline {
+    agent any
+    environment {
+        GIT_COMMITTER_NAME = "jenkins"
+        GIT_COMMITTER_EMAIL = "jenkins@jenkins.io"
+    }
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
+    post {
+        always {
+            echo 'Always Run'
+        }
+        success {
+            echo 'Run Success'
+        }
+        failure {
+            echo 'Run Failure'
+        }
+    }
+}
