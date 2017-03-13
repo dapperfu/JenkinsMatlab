@@ -11,6 +11,6 @@ node {
         }
    }
    stage('Run dSpace Tests') {
-        println "Run dSpace"
+        echo "Run dSpace"
    }
 }
