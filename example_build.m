@@ -9,7 +9,13 @@ try
         fprintf('%s: %s\n', env, getenv(env))
     end
     %% BEGIN YOUR CODE HERE
-    slbuild('example_mdl');
+    build_number = str2double(getenv('BUILD_NUMBER'));
+    % Fail on even build numbers
+    if mod(build_number, 2) == 0
+        error('jenkins:example', 'Generic Error: %i', randi(100));
+    else
+        slbuild('example_mdl');
+    end
     %% END YOUR CODE
 catch me
     fprintf('########## Failed ##########\n');
