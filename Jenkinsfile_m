@@ -1,13 +1,13 @@
 #!groovy
 node {
-   stage('Checkout') {
+   stage('Git Checkout') {
         checkout scm
    }
-   stage('Build') {
+   stage('Run Matlab') {
         try {
             bat('example.bat')
         } finally {
-            archive '*.log'
+            archive('*.log')
         }
    }
 }
