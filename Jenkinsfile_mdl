@@ -1,4 +1,7 @@
 node {
+   stage('Checkout') {
+        git([url: 'git@github.com:jed-frey/JenkinsMatlab.git', branch: 'master', credentialsId: 'c8cd5c84-69a5-419c-b8ff-67407af249f3'])
+   }
    stage('Build') {
         try {
             bat('example_build.bat')
