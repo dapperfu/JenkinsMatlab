@@ -1,0 +1,9 @@
+node {
+   stage('Build') {
+        try {
+            bat('example_build.bat')
+        } finally {
+            archive '*.log'
+        }
+   }
+}
