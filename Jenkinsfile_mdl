@@ -6,7 +6,7 @@ node {
         try {
             bat('example_build.bat')
         } finally {
-            archive '*.log'
+            archive '*.log' '*_ert_rtw'
         }
    }
 }
