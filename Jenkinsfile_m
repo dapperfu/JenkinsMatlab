@@ -16,7 +16,13 @@ pipeline {
     }
     post {
         always {
-            archive "example.log"
+            archive "example_build.log"
+        }
+        success {
+          mail to:"jenkins@12storage.com", subject:"SUCCESS: ${currentBuild.fullDisplayName}", body: "Yay, we passed."
+        }
+        failure {
+          mail to:"jenkins@12storage.com", subject:"FAILURE: ${currentBuild.fullDisplayName}", body: "Boo, we failed."
         }
     }
 }
