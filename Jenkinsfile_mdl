@@ -25,6 +25,7 @@ pipeline {
         }
         success {
           mail to:"jenkins@12storage.com", subject:"SUCCESS: ${currentBuild.fullDisplayName}", body: "Yay, we passed."
+          build job: 'dSpace', propagate: false, quietPeriod: 5
         }
         failure {
           mail to:"jenkins@12storage.com", subject:"FAILURE: ${currentBuild.fullDisplayName}", body: "Boo, we failed."
