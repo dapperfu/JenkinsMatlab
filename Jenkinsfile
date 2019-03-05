@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Hello') {
       steps {
-        bat(script: 'C:\\Program Files\\MATLAB\\R2018b\\bin\\matlab.exe', encoding: 'UTF-8', returnStatus: true, returnStdout: true)
+        bat(script: '"C:\\Program Files\\MATLAB\\R2018b\\bin\\matlab.exe"', encoding: 'UTF-8', returnStatus: true, returnStdout: true, label: 'matlab')
       }
     }
   }
