@@ -23,6 +23,7 @@ pipeline {
     stage('Fin') {
       steps {
         archiveArtifacts(artifacts: '**/*.log', allowEmptyArchive: true, fingerprint: true, onlyIfSuccessful: true)
+        archiveArtifacts(artifacts: '**/*_ert_rtw', fingerprint: true, onlyIfSuccessful: true, allowEmptyArchive: true)
       }
     }
   }
