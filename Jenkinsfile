@@ -6,14 +6,14 @@ pipeline {
         bat(script: '"C:\\Program Files\\MATLAB\\R2018b\\bin\\matlab.exe"', encoding: 'UTF-8', returnStatus: true, returnStdout: true, label: 'matlab')
       }
     }
-    stage('error') {
+    stage('Matlab') {
       parallel {
         stage('error') {
           steps {
             bat(script: 'example.bat', encoding: 'UTF-8', label: 'example_bat', returnStatus: true, returnStdout: true)
           }
         }
-        stage('') {
+        stage('error') {
           steps {
             bat(returnStatus: true, returnStdout: true, script: 'example_build.bat', encoding: 'UTF-8', label: 'example_build')
           }
