@@ -7,8 +7,17 @@ pipeline {
       }
     }
     stage('error') {
-      steps {
-        bat(script: 'example.bat', encoding: 'UTF-8', label: 'example_bat', returnStatus: true, returnStdout: true)
+      parallel {
+        stage('error') {
+          steps {
+            bat(script: 'example.bat', encoding: 'UTF-8', label: 'example_bat', returnStatus: true, returnStdout: true)
+          }
+        }
+        stage('') {
+          steps {
+            bat(returnStatus: true, returnStdout: true, script: 'example_build.bat', encoding: 'UTF-8', label: 'example_build')
+          }
+        }
       }
     }
     stage('Fin') {
