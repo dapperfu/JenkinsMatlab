@@ -9,4 +9,4 @@ REM -c        explicitly specify the license file.
 REM -logfile  Log all script output to the logfile.
 REM -r        Run the specified matlab commands.
 
-"C:\Program Files\MATLAB\R2016b\bin\matlab.exe" -nosplash -wait -c "C:\Program Files\MATLAB\R2016b\licenses\network.lic" -logfile "%~n0.log" -r "cd('%~dp0');run('%~n0')"
+"C:\Program Files\MATLAB\R2018b\bin\matlab.exe" -nosplash -wait -c "C:\Program Files\MATLAB\R2018b\licenses\network.lic" -logfile "%~n0.log" -r "cd('%~dp0');run('%~n0')"
