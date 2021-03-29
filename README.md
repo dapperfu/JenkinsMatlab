@@ -1,5 +1,7 @@
 # Using Jenkins with Matlab
 
+**Deprecated:** Matlab now has a plugin for Jenkins.
+
 This set of tutorials intends to demonstrate how to use Jenkins with MATLAB and Simulink to automate Simulink software builds, MATLAB unit tests and other similar tasks.
 
 > [Jenkins](https://jenkins.io) is an open source automation server written in Java. It supports SCM tools including AccuRev, CVS, Subversion, [Git](https://en.wikipedia.org/wiki/Git), Mercurial, Perforce, [Clearcase](https://en.wikipedia.org/wiki/Rational_ClearCase) and RTC, and can execute [Apache Ant](http://ant.apache.org) and Apache Maven based projects as well as arbitrary shell scripts and Windows batch commands.
